@@ -1,0 +1,107 @@
+
+.image{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+}
+.image>img{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    border: solid 3px rgb(58, 3, 90);
+    border-bottom: solid 3px red;
+}
+.informacion{
+ 
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.titulo{
+    position: relative;
+    width: 90%;
+    height: 70px;
+    left: 5%;
+    top: 15px;
+}
+.titulo>span{
+    position: absolute;
+    font-size: 42px;
+    font-weight: bold ;
+    font-family: Arial;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+.temporadas{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    left: 5%;
+    top: 30px;
+}
+.temporadas>span{
+    position: absolute;
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
+.ver{
+    position: relative;
+    width: 50%;
+    height: 70px;
+    left: 5%;
+    top: 50px;
+    border: solid 3px rgb(1, 236, 1);
+    background-color: #171717;
+}
+.ver:hover{
+    border: solid 3px rgb(53, 6, 68);
+    border-bottom: solid 3px red;
+    background-color: #000000;
+}
+.tarde:hover{
+    border: solid 3px rgb(53, 6, 68);
+    border-bottom: solid 3px red;
+    background-color: #000000;
+}
+.ver>span{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold ;
+    font-family: Arial;
+    color: rgb(1, 236, 1);
+    top: 10px;
+    left: 10px;
+}
+.tarde{
+    position: relative;
+    width: 50%;
+    height: 50px;
+    left: 5%;
+    top: 80px;
+    border: solid 3px rgb(1, 236, 1);
+    background-color: #171717;
+}
+.tarde>span{
+    position: absolute;
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(1, 236, 1);
+    top: 10px;
+    left: 10px;
+}
+.sipnosis{
+    width: 80%;    
+    left: 5%;
+    top: 550px;
+    text-align: justify;
+}
+.sipnosis>span{
+    font-size: 25px;
+    font-family: Arial;
+    color: white;
+}

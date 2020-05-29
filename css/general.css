@@ -1,0 +1,125 @@
+.cabecera{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    background-color: #171717;
+    display: inline-block;
+}
+.icono{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width:  16%;
+}
+.imgicono{
+    position: relative;
+    height: 80px;
+    width:  90%;
+}
+.buscador{
+    position: fixed;
+    height: 80px;
+    width: 60%;
+    left: 210px;
+}
+.buscador>input{
+    position: relative;
+    background-color: #171717;
+    width: 80%;
+    height: 40px;
+    top: 20px;
+    left: 10%;
+    border-radius: 20px;
+    border: 2px solid rgb(1, 236, 1);
+    font-size: 25px;
+    font-weight: bold ;
+    font-family: cursive;
+    color: white;
+}
+.iconomastarde{
+    position: fixed;
+    width: 12%;
+    height: 80px;
+    top: 0px;
+    right: 12%;
+    border-left: solid 5px rgb(1, 236, 1);
+    color: white;
+}
+.iconomastarde>img{
+    position: relative;
+    width: 45%;
+    top:5px;
+    left: 26%;
+}
+.iconovisto>img{
+    position: relative;
+    width: 45%;
+    top:5px;
+    left: 26%;
+}
+.iconomastarde:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(41,20,66,1) 49%, rgba(0,0,0,1) 96%);
+}
+.iconovisto:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(162,0,0,1) 49%, rgba(0,0,0,1) 97%);
+}
+.iconovisto{
+    background-color: rgb(65, 64, 64);
+    position: fixed;
+    width: 12%;
+    height: 80px;
+    top: 0px;
+    right: 0px;
+    border-left: solid 5px rgb(1, 236, 1);
+    color: white;
+}
+.principal{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #201e1e;
+    padding: 50px;
+    overflow-y: scroll;
+}
+@media screen and (max-width: 500px){
+    .principal{
+        display: inline-block;
+        padding: 20px;
+    }
+    .icono{
+        width: 25%;
+        height: 70px;
+        top: 5px;
+    }
+    .imgicono{
+        width: 100%;
+        height: 100%;
+    }
+    .buscador{
+        height: 30px;
+        width: 50%;
+        left: 22%;
+    }
+    .buscador>input{
+        height: 30px;
+    }
+    .iconomastarde{
+        width: 14%;
+        right: 14%;
+    }
+    .iconomastarde>img{
+        width: 80%;
+        left: 6%;
+        top: 20px;
+    }
+    .iconovisto{
+        width: 14%;
+    }
+}

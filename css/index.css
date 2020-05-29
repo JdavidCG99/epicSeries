@@ -1,0 +1,105 @@
+.principal{
+    background-color: #272424;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+    border-top: solid 8px red;
+    border-bottom: solid 8px red;
+}
+
+.logo{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    top: 5px;
+    left: 35%;
+}
+
+.logo>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.datos{
+    position: relative;
+    background-color: #171717;
+    width: 30%;
+    height: 450px;
+    top: 10px;
+    left: 35%;
+    border-radius: 5%;
+    border: solid 2px rgba(51, 255, 0, 0.849);
+}
+.titulo{
+    position: relative;
+    font-size: 42px;
+    font-family: Arial;
+    color: white;
+    top: 15px;
+    left: 10%;
+}
+.entradas{
+    position: relative;
+    margin-top: 35px;
+    left: 10%;
+    width: 80%;
+    height: 45px;
+}
+.entradas>input{
+    position: relative;
+    background-color: #201e1e;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    border: solid 2px red;
+}
+.iniciar{
+    background-color: red;
+    position: relative;
+    top: 40px;
+    width: 70%;
+    left: 15%;
+    height: 50px;
+    text-align: center;
+    border: solid 3px  rgb(0, 0, 0);
+}
+.iniciar>span,.cc>span{
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    top: 10px;
+}
+.cc{
+    position: relative;
+    top: 90px;
+    width: 45%;
+    left: 15%;
+    height: 50px;
+    text-align: center;
+    border: solid 5px rgb(10, 179, 5);
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        width: 50%;
+        height: 100px;
+        left: 25%;
+    }
+    .datos{
+        width: 80%;
+        left: 10%;
+    }
+    .cc>span{
+        font-size: 20px;
+    }
+}
